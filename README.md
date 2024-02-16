@@ -1,2 +1,2 @@
-# umb_courses_classwork
+# umb_classwork
 Classwork from University of Massachusetts Boston
