@@ -1,0 +1,60 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<< 25 >>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between <<< and >>> signs below (eg, <<<3>>>).
+
+   <<< 5 >>>
+
+3. Hours to complete the project: 25 hours
+
+4. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Calculating Edit Distance Using Dynamic Programming): The first
+   thing I did was fill in anything I knew that the comments said to do. When I 
+   could not figure something out I went and read the checklist. I never 
+   read the problems project2 pdf because I thought it said the same thing as
+   the checklist like the previous project. This caused me to struggle a lot.
+   However, after asking a few questions on piazza and attending a discussion
+   session I was able to figure out problem 1.
+
+
+   Problem 2 (Recovering the Alignment): I was not able to finish this problem.
+   The way I first approached it was by filling in any of the code I knew that
+   the comments asked me to do. After that I read the checklist. I was 
+   extremely confused while reading the checklist and could not make any 
+   progress. I reread the lecture slides and read some of the book, but I
+   still could not understand things. Eventually, out of curiosity I ended up 
+   checking the project 2 pdf. After reading it, a lot of the confusion I had 
+   was cleared up. I was finally able to make some progress. Unfortunately, I 
+   ended up checking the pdf on the last day to submit files and was not able to 
+   finish the problem.
+
+5. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+Tengpeng Li            TA          He helped me understand what problem 1 was
+                                   asking for and how to do the format output.
+
+Piazza             Instructors,    The instructor's answers helped me understand
+                   Students        what was wrong with my code and why it was
+                                   not working. The student's answer's helped
+                                   clarify problem 2 a little bit.
+
+
+6. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   The problems made absolutely no sense to me because I never read the
+   project2 pdf until the last day. I have now learned that the first thing I
+   need to do is read the project pdf's before doing the problems. I also
+   learned that a better way to approach the problems and exercises is to read
+   and understand what I am supposed to do instead of randomly trying things
+   until it works. The only times I enjoyed doing this project was when my
+   code actually worked and when I understood what I was doing.

@@ -1,0 +1,47 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<11>>>
+
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<5>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Tour Data Type): I first approached this problem by reading the
+   pdf file. After reading it seven to eight times, I finally began to
+   understand what I was supposed to be doing. When I started writing the code,
+   I also used the checklist to guide me in the right direction. When I got
+   stuck, I went to the discussion session to get help. The TA was able to
+   clarify my confusion and explain what I was doing wrong. This helped me a
+   lot as I was able to make progress on the project. The biggest issue I had
+   was getting a fail error for test4 in run_tests.py. This was very
+   frustrating as there was not any clear indication of what I was doing wrong.
+   After attending the second discussion session I was able to get help and fix
+   this issue. It turned out to be a minor iteration problem. After correcting
+   that my code was able to work properly.
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   Tengpeng Li         TA          During the discussion sessions, he
+                                   explained what the problem was asking for,
+                                   clarified questions and showed how to fix
+                                   certain errors in the code. He also helped
+                                   me find the minor iteration issue.
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   This project helped me improve my problem solving skills and solidify my
+   understanding of object oriented programming. I somewhat enjoyed doing this
+   problem because it felt good getting the code to run properly, but it was
+   also frustrating when fixing and understanding some parts. Overall this
+   project went a lot better than I expected it to.

@@ -1,0 +1,68 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<20>>>
+
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<5>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Ring Buffer): I approached problem 1 by first reading the
+   project3.pdf. I was not able to understand a lot of what the problem was
+   asking at first. I then tried to complete anything I knew using the
+   checklist as help. When I got stuck and couldn't make anymore progress, I
+   reread the problem around 10 more times. This helped me understand much
+   more of what I was supposed to do. The discussion sessions also helped a lot
+   as the TA gave many examples that clarified a lot of the confusion I had.
+   Eventually, after rereading the problem many more times, I was able to
+   understand and complete it all. The main issues I encountered was sometimes
+   getting syntax errors even though the code was clearly written correctly.
+   After asking about it on Piazza, I was told to check previous code for any
+   errors. I did this and was able to resolve the issues I was having. Another
+   problem I had was doing the enqueue and dequeue functions because I did not
+   know how they worked. I was able to do them after rereading the problem a
+   few more times and getting help from the TA during the discussion sessions.
+
+
+   Problem 2 (Guitar String): The way I approached this problem was similar to
+   problem 1. I reread the pdf and checklist many times over again until I
+   was able to understand what the problem was asking for. Afterwards I used
+   the checklist as a guide to help me do the problem. The explanation and
+   examples the TA gave during the discussion sessions also helped clarify
+   questions I had. The major issue I had was similar to problem one where
+   there was a syntax error even though the code was written correctly. I fixed
+   this by going back and correcting any other errors I had in the previous
+   code. I also had some minor calculation errors with the tic(string)
+   function, but was able to fix it by rewriting my code in a different way.
+   Eventually, I was able to complete all of problem 2.
+
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+Tengpeng Li            TA          He explained problem 1 and 2 in more detail
+                                   that helped me understand them better. He
+                                   also showed a lot of examples that helped me
+                                   understand what I was supposed to be doing
+                                   and clarified questions I had.
+
+Piazza             Instructor's    I asked why I was getting a syntax error on
+                   answer          Piazza and the instructor's answer said to
+                                   check my previous code for any errors.
+
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   This project seemed nearly impossible when I first looked at it. However,
+   after reading it many times over I was finally able to understand what was
+   going on. I learned a lot more about defining functions as well. I did not
+   enjoy the project a lot at first, but towards the end it became more
+   interesting and doable.

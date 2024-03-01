@@ -1,0 +1,35 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<10>>>
+
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<5>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Particle Identification): I was not able to get to this problem.
+   The only thing I was able to do was make sure the styling was correct.
+
+   Problem 2 (Particle Tracking): I was not able to get to this problem.
+   The only thing I was able to do was make sure the styling was correct.
+
+   Problem 3 (Data Analysis): I was not able to get to this problem. The only
+   thing I was able to do was make sure the styling was correct.
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I did not put enough time into this project, which was why I could not
+   complete it. I did enjoy doing the parts that I did finish.

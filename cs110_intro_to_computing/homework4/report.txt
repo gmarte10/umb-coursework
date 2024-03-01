@@ -1,0 +1,54 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<20>>>
+
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<5>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Markov Model Data Type): I first approached this problem by
+   reading the project4.pdf. Unfortunately, I did not have enough time to
+   thoroughly read the problem as I left project 4 for last minute. I was not
+   able to finish this problem even though I spent a lot of time trying to do
+   it. The major issue I had was understanding what the problem was asking for.
+   The only way I would have understood that was by reading the problem many
+   times over, which I could not do. The discussions helped me understand
+   some of the problem, which allowed me to at least write some code. Even
+   though I was not able to finish the problem, I still made sure it had
+   correct styling.
+
+   Problem 2 (Random Text Generator): I could not get to this problem as I was
+   not able to finish problem 1. Without doing the first problem, there was no
+   way of being able to complete this one. Since I could not complete this
+   problem, I focused on at least making sure it had correct styling.
+
+   Problem 3 (Noisy Message Decoder): I was not able to get to this problem as
+   well. However, the discussions session helped me to start it. The only
+   problem was that I could not finish it as I had not finished the previous
+   two problems. I also made sure this problem had correct styling like the
+   previous two as it was the least I could do.
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+ Tengpeng Li            TA         They helped me understand some of the
+                                   problems and exercises. I was able to start
+                                   some of the problems with their help.
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   The major lesson I got from this project was to not leave everything for
+   last and to also get help when I need it. I could have definitely finished
+   some of the problems if I got started on the project earlier. Overall this
+   project was very difficult, especially when it came to understanding the
+   problems. However, I was still able to learn a lot about object oriented 
+   programming.

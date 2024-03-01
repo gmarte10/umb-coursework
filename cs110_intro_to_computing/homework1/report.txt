@@ -1,0 +1,84 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<9>>>
+
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<3>>>
+
+3. Provide a short description of how you approached each problem, issues you
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Day of the Week): I first looked at the write up along with the
+checklist and then opened the file. I read the problem again and followed the
+instructions by defining the proper variables and writing the equation given.
+The only issue I had was trying to get the variable names to have subscripts. I
+could not figure it out so I just used the letter with a number next to it,
+which worked just as good.
+
+   Problem 2 (Mercator Projection): I used the same approach as the first
+problem. A minor issue I encountered was getting the correct x value. I fixed
+this by making x = longitude.
+
+   Problem 3 (Great Circle Distance): I used the same approach as before. I had
+an issue with fitting all the code onto one line. After a lot of trial and error
+I learned that you could continue the code in another line, but you have to
+indent it properly. Eventually, I was able to make the program run correctly.
+
+   Problem 4 (Wind Chill): I used the same approach as before. I had no issue
+doing this problem.
+
+   Problem 5 (Gravitational Force): I used the same approach as before. I had
+a few issues with this problem. I first forgot to put G in scientific notation,
+but was able to fix that quickly. When I submitted the file, I found out that
+the program did not work. I fixed it by changing the G position so that instead
+of being multiplied last, it would be multiplied with m1 and m2.
+
+   Problem 6 (Snell's Law): I used the same approach as before. I also had to
+rearrange the equation to get the second angle of refraction by itself. I had
+issues with the arrangement of the computation when putting it into code. I had
+to go through a lot of trial and error by switching one piece of the equation at
+a time until the code finally worked.
+
+   Problem 7 (Gambler's Ruin): I used the same approach as before. The only
+issue I had was forgetting to put an extra pair of parenthesis for the
+exponent part of the equation.
+
+   Problem 8 (Waiting Time): I used the same approach as before. The only issue
+I had was forgetting to use math.exp() instead of e**, but I quickly figured it
+out and fixed it.
+
+   Problem 9 (Die Roll): I approached this problem in a similar manner as before
+, but instead I read everything more carefully since things weren't as obvious.
+I also tried a few equations and solutions on paper before coding. The major
+issue I had was that I misinterpreted the question wrong and used an incorrect
+equation. The program passed all the python tests, but I was still able to catch
+my mistake when I reread the hints from the checklist. I was then able to create
+the proper equation. The other issue I had was that random.randomint() did not
+exist even though it was given as a hint. I instead used random.randrange(),
+which still allowed the program to work. However, I found out later that I had
+to use random.randint(), which I put into my code before submitting.
+
+   Problem 10 (Three Sort): I used a similar approach as problem 9 because I
+read the problem and hints very carefully. I had issues trying to find the
+middle number using equations, but was finally able to come up with one using
+the hints along with trial and error. I was eventually able to
+make the program run as expected.
+
+4. Did you receive help from anyone? List their names, status (classmate,
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+Laura Chamberlain     SI teacher   She helped me fix an error I was having with
+                                   using run_tests.py in the terminal and how I
+                                   should approach Exercise 1.
+
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+I learned a lot about how python and the virtual environment works. I also
+enjoyed running the programs on the terminal and getting them to run correctly.
