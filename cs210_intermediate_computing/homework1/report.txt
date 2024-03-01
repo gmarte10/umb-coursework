@@ -1,0 +1,66 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<15>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<5>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Model a Percolation System): I first approached the problem
+   by reading the pdf and the checklist line by line and taking notes
+   on the most important parts. I made sure to understand each word
+   that was being said. The main issues I had with this problem was
+   connecting the neighboring sites in the open method and also fixing the
+   backwash. I solved the open method by fixing the conditions in the if
+   statements, which was recommended to me by the SI instructor. I solved
+   the backwash issue by making the isFull method check if a site was
+   connected to the top row in the second uf object I made. Overall this
+   problem took me the most time to understand and do.
+
+
+   Problem 2 (Estimate Percolation Threshold): I approached this problem
+   similar to the first by reading the pdf and checklist line by line,
+   while annotating at the same time. I had to reread a bit more in order
+   to catch all the small details. The issue I had with this problem was
+   getting the correct precision and numbers for my answers. I
+   solved this by type casting everything I could into doubles. I was still
+   not able to get the exact numbers at the end, but it was extremely
+   close and passed all the tests. Another minor issue I had was
+   calculating the mean and stddev. I was able to fix this quickly by
+   using the StdStats methods.
+
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   Suncharn         SI             He helped me debug my code by telling
+   Pipithkul        Instructor     me what I was doing wrong. He also
+                                   gave lectures on the problems that
+                                   made it easier to understand them.
+
+   James            TA             He gave a lot of useful tips and
+   Michaud                         hints during the discussion
+                                   sessions. He also explained what we
+                                   had to for the exercises and
+                                   problems in a way that was
+                                   understandable.
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I enjoyed doing this project a lot because I was able to learn so
+   much from it. The exercises and problems helped me understand how
+   Java works and made it easier to learn everything that was being
+   taught during lectures. It felt really good being able to get the
+   code working correctly, especially after hours of struggle. The
+   most frustrating part about this project was problem 1. Attending
+   most of the SI sessions was also a great help.

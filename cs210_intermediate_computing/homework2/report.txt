@@ -1,0 +1,40 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<2>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<5>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Deque): I was not able to complete this because I was never
+   able to get to it.
+
+   Problem 2 (Random Queue): I was not able to complete this because I was
+   never able to get to it.
+
+   Problem 3 (Subset): I was not able to complete this because I was
+   never able to get to it.
+   
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   Suncharn          SI             He helped me by telling me that I had
+   Pipithkul         Instructor     to convert some of the classes and
+                                    variables to protected instead of
+                                    private.
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I was not able to put in the time to do this project due to having to
+   do many other things. For the next project I plan on putting in a
+   lot more time and effort on them.

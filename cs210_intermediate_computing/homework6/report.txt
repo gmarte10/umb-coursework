@@ -1,0 +1,120 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<9>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<4>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (WordNet Data Type)
+      Approach: I first read the writeup and took notes on it. I
+      highlighted the major concepts and definitions that I would be
+      implementing. After making sure I understood what the problem
+      was asking for, I read the checklist. When I finished, I then
+      began coding using the checklist and the recorded discussion
+      session as a guide.
+
+      Issues and resolution: I had a lot of trouble with the corner cases.
+      Gradescope showed that I had nullpointer errors and incorrect
+      error messages. I was able to easily fix the error messages, but
+      the nullpointer errors were much more difficult. It was very
+      confusing because my code was definitely right. I then came to the
+      conclusion that the corner cases in problem 1 were not the source
+      of the issue. With this in mind, I decided to fix the corner cases
+      in problem 2 first. Doing this did not help. I then thought that it
+      was most likely an issue with the code in problem 2 as problem 1
+      relied on it for several methods. After getting problem 2 correct,
+      a few of the issues were resolved. However, I still had problems
+      with corner cases from methods like isNoun and errors with testing
+      main. I decided that the best way to fix this would be to go over
+      all the methods using the discussion session recording as a guide
+      again. Doing this I found that when I was filling st, I did not add
+      the Set object I created into it. I was also not adding the id into
+      that Set object. After fixing this, more of my problems were
+      resolved. The way I fixed the remaining null pointer errors was by
+      fixing the way I was creating a digraph. I forgot to use the addEdge
+      method on the id to the other synset id's that were in the String
+      array. After doing this I had a few unexpected exception errors
+      that I fixed by changing && to || when checking if both nouns were
+      WordNet nouns in the corner checks.
+
+
+   Problem 2 (ShortestCommonAncestor Data Type)
+      Approach: I took notes on the problem 2 concepts and definitions
+      from the writeup. I also simplified the API into words that were
+      easier to understand and visualize. After doing that I used the
+      checklist and Discussion session recording to guide me when
+      implementing my code.
+
+      Issues and resolution: I had a lot of null pointer exceptions in
+      both the corner cases and method testing that were very similar
+      to problem 1. I went over each method to see if there was any issue
+      with the code. I could not find any. When I ran the program using
+      the terminal, nothing happened and I had to force stop it. This
+      indicated that my code had some logical problems. I decided to use
+      the recorded discussion session as a guide again when double
+      checking my code. I was finally able to find the source of the
+      problem. It was caused by using a DepthFirstDiPaths object to do a
+      Breadth first search. James said in the discussion session that
+      you could implement the breadth first search manually, which was
+      what I did instead of using DepthFirstDiPaths. After doing that all
+      my issues were resolved for problem 2.
+
+
+   Problem 3 (Outcast Data Type)
+      Approach: I approached this similar to problem 2. I first took notes
+      and highlighted important concepts and definitions related to problem
+      3. I then made a bit of pseudo code for the API methods. After doing
+      that I used the checklist and discussion session recording as a
+      guide when writing my code.
+
+      Issues and resolution: A lot of the issues I had at first were
+      coming from problem 1 when creating the wordnet object. I was able
+      to resolve those issues by fixing problem 1. I had two issues left
+      after completing the other two problems. I was getting the wrong
+      words in the main tests according to Gradescope. I took out the
+      corner cases I implemented because they were not required and I did
+      not know if they were interfering in any way. I tried several things
+      that ended up as failed attempts like using another variable to get
+      the total instead of using only dist. After looking through
+      the code a bit more, I was able to find an issue. I saw that
+      I was not resetting the dist variable that I used to collect the
+      total distance for each individual noun from the outer loop. I
+      first tried to reset it inside the if condition inside the two nested
+      loops. This made things worse. I then realized that I had to reset
+      it inside the outer loop, but outside the inner loop. After doing
+      that I was able to resolve two issues leaving one more left. I was
+      not able to figure out why I kept getting the wrong word for that
+      final error when testing main on Gradescope. I tried rewriting the
+      code and changing what number the max variable started at, but
+      nothing worked.
+
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+  James                 TA         He explained a lot of the concepts
+  Michaud                          in a much simpler way that was more
+                                   understandable. He also gave useful
+                                   tips that I overlooked when
+                                   implementing some code.
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   This project was a lot better than the previous one. I felt like it
+   was much more doable even though it still had some difficult parts
+   to it. Overall I enjoyed it, especially towards the end. For this
+   specific project I focused on making my code as simple and
+   efficient as possible, which was the opposite of what I had been
+   doing in the previous ones. I did this because I noticed that it
+   was a lot easier to read my code when it was not so redundant and
+   filled with obvious unhelpful comments.
