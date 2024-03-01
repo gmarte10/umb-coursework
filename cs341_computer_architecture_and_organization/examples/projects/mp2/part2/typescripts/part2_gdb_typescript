@@ -1,0 +1,113 @@
+Script started on Sat 03 Apr 2021 11:08:26 PM EDT
+]0;tuser@tutor-vserver: ~tuser@tutor-vserver:~$ gdb printl[Kbin.x[Klnx
+GNU gdb (GDB) 7.0.1-debian
+Copyright (C) 2009 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "i486-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /home/tuser/printbin.lnx...done.
+(gdb) tar rem/ [K[K / [Kdev/ttyS0
+Remote debugging using /dev/ttyS0
+0x00100100 in _start ()
+(gdb) set $eip [K=0x100100
+(gdb) i reg
+eax            0x1	1
+ecx            0x6967c	431740
+edx            0x0	0
+ebx            0x0	0
+esp            0x5788c	0x5788c
+ebp            0x57890	0x57890
+esi            0x13e10	81424
+edi            0x51ffc	335868
+eip            0x100100	0x100100 <_start>
+eflags         0x206	[ PF IF ]
+cs             0x10	16
+ss             0x18	24
+ds             0x18	24
+es             0x18	24
+fs             0x18	24
+gs             0x18	24
+(gdb) [K(gdb) x/x [K[K[K[Kb *0x100105[K[K[K[K[K[K001001c3
+Breakpoint 1 at 0x1001c3
+(gdb) b * [K0x001001eb
+Breakpoint 2 at 0x1001eb
+(gdb) cont
+Continuing.
+
+Breakpoint 1, 0x001001c3 in printbin ()
+(gdb) i reg
+eax            0xab	171
+ecx            0x6967c	431740
+edx            0x101b2b	1055531
+ebx            0x102054	1056852
+esp            0x3fff9c	0x3fff9c
+ebp            0x3fffc8	0x3fffc8
+esi            0x13e10	81424
+edi            0x1021a8	1057192
+eip            0x1001c3	0x1001c3 <printbin>
+eflags         0x212	[ AF IF ]
+cs             0x10	16
+ss             0x18	24
+ds             0x18	24
+es             0x18	24
+fs             0x18	24
+gs             0x18	24
+(gdb) [K(gdb) cont
+Continuing.
+
+Breakpoint 2, 0x001001eb in donibble ()
+(gdb) i reg
+eax            0xab	171
+ecx            0x0	0
+edx            0x101b2b	1055531
+ebx            0x102054	1056852
+esp            0x3fff94	0x3fff94
+ebp            0x3fff98	0x3fff98
+esi            0x13e10	81424
+edi            0x1021a8	1057192
+eip            0x1001eb	0x1001eb <donibble>
+eflags         0x212	[ AF IF ]
+cs             0x10	16
+ss             0x18	24
+ds             0x18	24
+es             0x18	24
+fs             0x18	24
+gs             0x18	24
+(gdb) cont
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+_startupc () at startup.c:7
+7	startup.c: No such file or directory.
+	in startup.c
+(gdb) i reg
+eax            0x0	0
+ecx            0x3fffe0	4194272
+edx            0x101b56	1055574
+ebx            0x0	0
+esp            0x3ffff0	0x3ffff0
+ebp            0x0	0x0
+esi            0x13e10	81424
+edi            0x1021a8	1057192
+eip            0x100110	0x100110 <_startupc>
+eflags         0x206	[ PF IF ]
+cs             0x10	16
+ss             0x18	24
+ds             0x18	24
+es             0x18	24
+fs             0x18	24
+gs             0x18	24
+(gdb) [K(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [Remote target] will be killed.
+
+Quit anyway? (y or n) y
+]0;tuser@tutor-vserver: ~tuser@tutor-vserver:~$ exit
+exit
+
+Script done on Sat 03 Apr 2021 11:15:52 PM EDT

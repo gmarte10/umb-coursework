@@ -1,0 +1,52 @@
+Giancarlos Marte
+unix: gcmarte
+mp1 discussion.txt
+
+(1) I tested my code by using printf()'s on anything that I was unsure about. This was especially important when it came to pointers as their address and values were very confusing for me.
+
+(2) [LINUX] If you call md for an address that does not correspond to physical memory address you will end up getting
+a Segmentation fault (core dumped) error. If you write to an address that's part of the tutor code, the output
+you get depends on what you overwrite. If it is a function or something else that is essential to the program
+you will end up with a Segmetation fault (core dumped). However, if you write to a non essential variable/data
+address, you will be able to write over it. 
+[SAPC] If you call md for an address that does not correspond to physical memory address you will end up getting
+a *address input* Exception 13 at EIP=001004e8: General preotection violation. When I wrote into important addresses of the tutor code,
+I was able to successfully do it. However, trying to use md to display the address gave me an Exception 6 at EIP=003ffdb9: Invalied opcode. Writing
+in the non essential test variables worked as intended.
+
+(3) It puts the symbol table in syms(SAPC) and usyms(LINUX)
+	(a) The address in the symbol table was 001023c0 (SAPC) and tutor worked fine with it. The value was 
+	    verified in tutor.
+	(b) The address in the symbol table was 0010241c (SAPC). The value it showed was 001023c0, which is 	
+	    the same address pxyz was pointing to.
+	(c) The address for cmds in the symbol table was 001023e0. The very first pointer in the array is
+	    00101cde. The 'm' is 4d00646d. The 'n' is 726f6d65. The terminating null of this string is 
+	    69642079.
+	(d) 's' address is 00101cfb. Using ms I was able to change 's' to 'x' in the "real" tutor program
+            while it was running without any issues. I did the same thing in the tutor prompt and it worked
+	    just as well.
+(4) For SAPC: T and t means the code resides in the text/code section of memory. The D and d symbols means       it is in the initialized data section. The B and b symbol signify that the part is in the BSS data     secion.
+    For LINUX: D and d also mean the initialized section, T and t also mean the text/code section. The
+    U symbol signifies undefined. 
+
+(5) In SAPC when I change the code itself, it gives me an Exception 13 at EIP=001009ec: General preotection violation. When I change the code itself in LINUX, it give me a Segmentation fault (core dumped).
+
+(6) On SAPC the stack pointer ESP = 003ffe40. On LINUX esp = 0xffffdba0.
+
+(7) I tried to set the pointer value of pxyz to '\0' null character to see if it would do anything. 
+    The program did not crash on either systems and I was still able to use md. However when I set it
+    for the help function it crashed immiedetly on LINUX. Interestingly, on the tutor prompt, I was still
+    able to use md even after doing that. It crashed only when I used the command h, which called the help     function that no longer existed.
+
+(8) I learned so much about memory and how it works when using C. I also recovered a lot of my C knowledge,
+    while also understanding it much better. The most difficult part about this project was understanding
+    all the prewritten code and using pointers to access addresses and their values. The most suprising
+    part for me was how I was actually able to make the program run. When I first looked at all the files
+    and code I thought that it would be impossible for me because of how complex it looked. However,
+    after spending some time reading each line from each file, it became much more undestandable and
+    interesting in the way it worked. The vi editor really slowed me down because I am used to IDE's and
+    other really advanced editors. However, I ultimately came to like it because I was able to understand
+    more about my code as I had to double check it more often. Another thing that slowed me down was the
+    users.cs.umb.edu server because of my bad internet connection at home. There were times where I would
+    lose connection and some of my code would be lost. However, it was not the worst and I still managed
+    to keep a good pace.

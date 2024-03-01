@@ -1,0 +1,213 @@
+Script started on Wed 05 May 2021 03:42:02 PM EDT
+tuser@tutor-vserver:~$ exitmtip -f watchdog.lnxls[Kscp gcmarte@users.cs.umb.edu:cs341/mp5/watchdog.* .
+gcmarte@users.cs.umb.edu's password: 
+watchdog.c                                                                                      0%    0     0.0KB/s   --:-- ETAwatchdog.c                                                                                    100% 3045     3.0KB/s   00:00    
+watchdog.lnx                                                                                    0%    0     0.0KB/s   --:-- ETAwatchdog.lnx                                                                                  100%   36KB  35.7KB/s   00:00    
+watchdog.o                                                                                      0%    0     0.0KB/s   --:-- ETAwatchdog.o                                                                                    100% 8632     8.4KB/s   00:00    
+watchdog.syms                                                                                   0%    0     0.0KB/s   --:-- ETAwatchdog.syms                                                                                 100% 1970     1.9KB/s   00:00    
+tuser@tutor-vserver:~$ scp gcmarte@users.cs.umb.edu:cs341/mp5/watchdog.* .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kmtip -f watchdog.lnx
+For command help, type ~?
+For help on args, rerun without args
+Code starts at 0x100100
+Using board # 1 
+stopped timer | 5492540
+timer shutting down...
+Please type <CR> to confirm console setting: 
+Setting console dev to COM2Console: colour EGA+ 80x25
+COM1 at 0x03f8 (irq = 4) is a 16550A
+COM2 at 0x02f8 (irq = 3) is a 16550A
+
+                 Welcome to UMB Tutor for the PC
+   UMB Tutor is a 32-bit protected-mode PC debugger/downloader,
+       based on Linux, UMB Tutor for m68k, and remote gdb.
+UMB Tutor is free software and you are welcome to distribute copies
+of it under certain conditions.  There is no warranty for this program.
+The copyright and warranty provisions follow the Gnu general public
+license, available for view in gdb and elsewhere.  Full sources available.
+--bugs, suggestions, questions to eoneil@cs.umb.edu
+
+Exception 3 at EIP=00057a9b: Breakpoint
+Tutor> ~downloading watchdog.lnx
+
+.........Done.
+
+Download done, setting EIP to 100100.
+Tutor> go 100100
+Calling set_intr_gate (irq = 3, n = 0x23) to arm interrupt...
+Commanding PIC to interrupt CPU for irq 3 (COM2_IRQ)
+enabling receiver interrupts in UART...
+timer created
+interrupt setup
+starting timer... | 0
+...done, entering almost-infinite loop
+stopped timer | 5437614
+timer shutting down...
+rebooting...
+Calling set_intr_gate (irq = 3, n = 0x23) to arm interrupt...
+Commanding PIC to interrupt CPU for irq 3 (COM2_IRQ)
+enabling receiver interrupts in UART...
+timer created
+interrupt setup
+starting timer... | 0
+...done, entering almost-infinite loop
+new char received is= A
+new char received is= B
+stopped timer | 5492540
+timer shutting down...
+rebooting...
+Calling set_intr_gate (irq = 3, n = 0x23) to arm interrupt...
+Commanding PIC to interrupt CPU for irq 3 (COM2_IRQ)
+enabling receiver interrupts in UART...
+timer created
+interrupt setup
+starting timer... | 0
+...done, entering almost-infinite loop
+new char received is= C
+new char received is= D
+new char received is= E
+new char received is= F
+new char received is= G
+stopped timer | 5492540
+timer shutting down...
+rebooting...
+Calling set_intr_gate (irq = 3, n = 0x23) to arm interrupt...
+Commanding PIC to interrupt CPU for irq 3 (COM2_IRQ)
+enabling receiver interrupts in UART...
+timer created
+interrupt setup
+starting timer... | 0
+...done, entering almost-infinite loop
+new char received is= 0
+new char received is= 1
+new char received is= 2
+new char received is= 3
+new char received is= 4
+new char received is= 5
+stopped timer | 5492540
+timer shutting down...
+rebooting...
+Calling set_intr_gate (irq = 3, n = 0x23) to arm interrupt...
+Commanding PIC to interrupt CPU for irq 3 (COM2_IRQ)
+enabling receiver interrupts in UART...
+timer created
+interrupt setup
+starting timer... | 0
+...done, entering almost-infinite loop
+new char received is= 6
+new char received is= a
+new char received is= b
+new char received is= c
+new char received is= d
+stopped timer | 5492540
+timer shutting down...
+rebooting...
+Calling set_intr_gate (irq = 3, n = 0x23) to arm interrupt...
+Commanding PIC to interrupt CPU for irq 3 (COM2_IRQ)
+enabling receiver interrupts in UART...
+timer created
+interrupt setup
+starting timer... | 0
+...done, entering almost-infinite loop
+new char received is= e
+new char received is= f
+new char received is= g
+new char received is= M
+new char received is= N
+new char received is= O
+stopped timer | 5492540
+timer shutting down...
+rebooting...
+Calling set_intr_gate (irq = 3, n = 0x23) to arm interrupt...
+Commanding PIC to interrupt CPU for irq 3 (COM2_IRQ)
+enabling receiver interrupts in UART...
+timer created
+interrupt setup
+starting timer... | 0
+...done, entering almost-infinite loop
+new char received is= P
+new char received is= Q
+new char received is= R
+new char received is= S
+new char received is= 0
+stopped timer | 5492540
+timer shutting down...
+rebooting...
+Calling set_intr_gate (irq = 3, n = 0x23) to arm interrupt...
+Commanding PIC to interrupt CPU for irq 3 (COM2_IRQ)
+enabling receiver interrupts in UART...
+timer created
+interrupt setup
+starting timer... | 0
+...done, entering almost-infinite loop
+new char received is= 1
+new char received is= 2
+new char received is= 3
+new char received is= 4
+new char received is= 5
+new char received is= 6
+stopped timer | 5492540
+timer shutting down...
+rebooting...
+Calling set_intr_gate (irq = 3, n = 0x23) to arm interrupt...
+Commanding PIC to interrupt CPU for irq 3 (COM2_IRQ)
+enabling receiver interrupts in UART...
+timer created
+interrupt setup
+starting timer... | 0
+...done, entering almost-infinite loop
+new char received is= m
+new char received is= n
+new char received is= o
+new char received is= p
+new char received is= q
+stopped timer | 5492540
+timer shutting down...
+rebooting...
+Calling set_intr_gate (irq = 3, n = 0x23) to arm interrupt...
+Commanding PIC to interrupt CPU for irq 3 (COM2_IRQ)
+enabling receiver interrupts in UART...
+timer created
+interrupt setup
+starting timer... | 0
+...done, entering almost-infinite loop
+new char received is= r
+new char received is= s
+new char received is= A
+new char received is= B
+new char received is= C
+new char received is= D
+stopped timer | 5492540
+timer shutting down...
+rebooting...
+Calling set_intr_gate (irq = 3, n = 0x23) to arm interrupt...
+Commanding PIC to interrupt CPU for irq 3 (COM2_IRQ)
+enabling receiver interrupts in UART...
+timer created
+interrupt setup
+starting timer... | 0
+...done, entering almost-infinite loop
+new char received is= E
+new char received is= F
+new char received is= G
+new char received is= 0
+new char received is= 1
+stopped timer | 5492540
+timer shutting down...
+rebooting...
+Calling set_intr_gate (irq = 3, n = 0x23) to arm interrupt...
+Commanding PIC to interrupt CPU for irq 3 (COM2_IRQ)
+enabling receiver interrupts in UART...
+timer created
+interrupt setup
+starting timer... | 0
+...done, entering almost-infinite loop
+new char received is= 2
+new char received is= 3
+new char received is= 
+
+Quit handler: 
+killing process 1985 Leaving board #1
+tuser@tutor-vserver:~$ exit
+exit
+
+Script done on Wed 05 May 2021 03:43:50 PM EDT
