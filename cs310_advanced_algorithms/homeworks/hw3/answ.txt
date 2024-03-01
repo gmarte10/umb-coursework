@@ -1,0 +1,42 @@
+d. Yes they can have two iterators existing at the same time. Each iterator can have references to the bag elements without interference with one another since all three objects are completely seperate from one another.
+
+
+
+6)
+a. Arrays.sort(names);
+
+b. Arrays.sort(numbers);
+
+c. Their natural order is basically the points with the greatest y and x coordinates to the ones
+with the least.
+
+d.
+
+Comparator<Point2D> radius = Comparator.comparing(Point2D::r);
+Arrays.sort(points, radius);
+Arrays.sort(points, points.rOrder());
+
+
+e.
+List<Account> accounts = new LinkedList<Account>();
+
+accounts.add(new BankAccount("Joe", 100, 100));
+accounts.add(new BankAccount("Sue", 101, 200));
+Comparator<BankAccount> balance = Comparator.comparing(BankAccount::getBalance());
+Collections.sort(accounts, balance);
+
+
+7)
+
+a. An interface can declare instance variables. 	True
+b. Any method in an interface must be public. 		True
+c. An interface can have no methods at all. 		True
+d. An interface can extend another interface. 		True
+e. An interface can declare constructors. 		False
+f. A class may extend more than one class. 		True
+g. A class may implement more than one interface.	True
+h. A class may extend one class and implement one interface.	True
+i. An interface may implement some of its methods.Ignore the new Java 8 features "default methods for interfaces" and "static methods in interfaces" here.	False
+j. All methods in an interface must have a void return type.
+k. Object is an interface.	False
+l. Comparable is an interface. 	True

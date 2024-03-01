@@ -1,0 +1,67 @@
+1)
+My experience writing this program was not very good.
+I had some issues with the windows path that was
+supposed to let me use java. This prevented me
+from compiling and running the program in intellij,
+which is the IDE I usually use. What I did instead was
+use Sublime text editor to write the code. I then saved
+it onto the umb linux server. After that I compiled it
+and ran it in the server with no issue. This became
+very tedious as I had to keep going back and forth
+between my local system and the server. 
+I specifically used putty to do all the compiling
+and running with linux commands. I used WinSCP to transfer
+files from my pc to the servers mostly because of the
+simple interface it had. An issue that I had when
+making the program like this was my wifi issues. Since
+the server relies completely on wifi, it would sometimes
+disconnect as my internet is not really stable. This
+would then force me to have to reopen putty, scp and redo
+other things in order to get back to coding the program.
+Overall this made things really inefficient.
+Even so, I was still able to complete most of the 
+project. Another thing that I ended up doing was 
+saving different versions of my code. Each time I came
+up with a new or better way of implementing my code,
+I would save the current one in a backup folder. This
+really helped me a lot as some of my ideas did not end
+up working and I would end up using the old code
+that I wrote before. In the next project
+I plan on having the path issue fixed or use
+ubuntu. I got stuck in a lot of part because I kept
+overthinking them. This was especially true for Annotator.
+I kept thinking that the skippedText() method had to go
+through the entire source file. It took me a while to
+figure out the correct implementation. The other issue
+I had was getting the modified words from the miss spelled
+ones in SpellChecker. I ended up not having enough time
+to figure it out. Overall this project was a lot more
+difficult than I thought it would be. This is one of the
+reasons for why I wasn't able to finish it. I
+underestimated how much time I actually needed. The Xref
+and Tokenizer part of the project took long mostly
+due to the fact that I had to go through the code multiple
+time in order to understood how it worked. For ther next
+project I intend to start as soon as possible.
+
+2)
+gcmarte@pe15:~/cs310/pa1/src$ javac cs310/*.java
+gcmarte@pe15:~/cs310/pa1/src$ java cs310.Xref < cs310/Xref.java
+gcmarte@pe15:~/cs310/pa1/src$ java cs310.Annotator < Xref.java
+gcmarte@pe15:~/cs310/pa1/src$ java cs310.SpellChecker cs310/test.txt cs310/words.txt
+
+3)
+N lines
+1 char = 2 bytes
+let C = number of characters in one line
+Then the maximum memory in use would be 2(C * N) bytes.
+
+4)
+The constructor would have O(N) complexity
+The checkSpelling would have 2 * O(N) + 3 * O(1) becuase it calls the
+lineNumbers (O(N)), checkModified (O(1)), addOneChar (O(1)) and
+printMisspelled (O(1)).
+Therefore, the total would be:
+2 * O(N) + 3 * O(1) + O (N)
+Simplified this would mean the big-O of the entire program would be:
+O(N)

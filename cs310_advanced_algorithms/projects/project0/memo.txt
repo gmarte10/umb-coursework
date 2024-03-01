@@ -1,0 +1,62 @@
+1) 
+The IDE that I used is called IntelliJ. I have been
+using it for a couple of years and is extremely reliable
+and easy to code with. It contains a lot of helpful tips
+and corrections. I developed the project in my PC with
+this IDE. The main issue I had was finding a way
+to do LineReport < inputfile command. I couldn't
+figure out how to do this on my PC, so I just
+tested everything using the inputfile path
+directly in the code (file object). After making sure
+everything worked, I then replaced that code with
+System.in and transferred it to users.cs.umb. There,
+I followed the commands shown in the project
+instruction (LineReport < inputfile) and had no
+problem recompiling and running my code on linux.
+Another issue that I had was figuring out how to
+use the big array. I first thought I was supposed
+to go element by element (increment of 1) and then
+add LineUsage objects. It took me a while, but I
+finally realized that I had to use the terminal
+line that I got from reading the file and use that
+for the location to put data in. I also figured out
+that I first had to initialize all the LineUsage
+objects in the array and then use the addObservation
+method for each. Overall the LineReport class was
+the most difficult to do. I had trouble trying
+to find out what it was supposed to do in the
+instructions. Fortunately, after rereading the steps
+page in the class website I learned that it was
+basically the class that would run the program with
+a main function. The TestLineUsage was really
+helpful. I never thought of running a main function
+for testing outside of it's intended class before.
+
+2)
+There are 3 functions called in the main function
+for my LineReport code. The first one initializes the
+LineUsage elements in the bigArray. This has a runtime of
+O(N) because there are N elements that a for loop has
+to go through. The second function reads the file. Since
+there are N input lines, the scanner loop will have a
+runtime of O(N). Then splitting a line inside of that
+loop is O(N). The rest of the operations and methods
+called would have a constant time including the ones in
+other classes. This would mean the second function in
+main would have O(N^2) as it's runtime.
+Lastly, the third function prints the results, which
+makes it O(N) as there is a for loop involved going N
+times. Therefore the runtime for the entire thing would
+be O(N) + O(N^2) + O(N). This would then mean
+LineReport's runtime would be 2(O(N)) + O(N^2) or
+O(N) + O(N^2). Overall this would be considered a
+quadratic growth rate as the linear part won't be
+as significant the higher the input gets.
+
+3)
+gcmarte@pe15:~/cs310/pa0/src$ javac *.java
+gcmarte@pe15:~/cs310/pa0/src$ java LineReport < inputfile.txt
+gcmarte@pe15:~/cs310/pa0/src$ ls
+inputfile.txt     LineUsage.class  TestLineUsage.class  Usage.java
+LineReport.class  LineUsage.java   TestLineUsage.java
+LineReport.java   memo.txt         Usage.class

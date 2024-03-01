@@ -1,0 +1,51 @@
+1)
+My experience writing this program was a little bit
+frustrating. My biggest trouble was that the two game
+implementations were so similar that it made things very 
+confusing to keep track of. The most difficult part was
+definately the recursion. It was really hard to visualize
+and keep track of. Speaking of, I don't really feel like
+I am a recursion expert at all. I am definately going
+to practice much more of this concept on my own time.
+Another issue that I had, which was totally my fault was
+that I procrastinated a lot with this project, which left
+me very little time to work on it. Another difficult
+part of these programs was keeping everything organized.
+I was a bit suprised of how easily the code could break
+and become really difficult to understand. I had to make
+a lot of backups. Overall the project was really helpful
+in understanding how to implement two different games and
+how to combine them with an interface. The main issue
+with the recursion was in step 3. Trying to make the
+chooseMove() method for Nim was a lot more difficult than
+I thought it would be. It didn't make a lot of sense when
+I was just looking at it. I had to write it out a bit to
+try and understand what I was doing with the recursive
+call. Step 4 was also a bit challenging because I had to
+go through the programs and find everything they had in
+common. I also had to alternate between combining them and
+seperating them in the PlayGame.java.
+
+2)
+This means that the value for the initial position in
+Nim would be a 3 because the computer gets to go first and
+will choose this strategy. The intial position value for
+TicTacToe is most likely a 1 because there is no gauranteed
+strategy to win. This means that TicTacToe is a more fair
+game than Nim. It also means that Nim is much more
+predictable and that the person who goes first is most
+likely to win.
+
+3)
+There are (number of rows)^(number of spaces) game states
+in Nim. The height is the number of spaces.
+
+4)
+The game state would be represented with a boolean array
+of size 7. One represent a stick, zero means no stick.
+There would also be a nextPlayer instance variable.
+It would overall be most similar to Nim's heap and
+nextPlayer instance variables.
+
+boolean[] heap = new boolean[7]; // 0 = no stick, 1 = stick
+int nextPlayer;

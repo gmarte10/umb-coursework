@@ -1,0 +1,80 @@
+1. My experience writing these programs was a bit
+stressful. There was a lot of tedious things I had to do
+repetitvely, especially when it came to debugging.
+Specifically going back and forth between writing the code
+on my local computer and then transfering and running
+it on the umb.users linux server. I had to do this as this
+seemed the easiest way to make sure that my code would
+run when I turned it in. The parts that I had most
+difficulty were 3 and 5. Number 3 took a while because I
+kept getting a general array creation error. I was finally
+able to figure it out after some time by using type
+casting. Part 5 did not really make sense to me as my code
+was not able to run properly when doing the performance
+test. I kept getting NullPointerException errors for some
+reason. This was strange as my code worked for the testMap
+program. Another issue I had was the hashing. I did not
+expect this at all as I feel comftorable enough with the
+concept. I forgot that the HashMap implementation of hashing
+needed extra processing. This made a lot of things
+confusing especially when it came to table1 after or
+before resizing. However, after doing this project I feel
+better about being able to implement hashing in coding
+programs. I don't know if these applications work for
+hashing in the real world, but I thought of things like
+banks keeping track of credit cards, or other id related
+things that have an organized structure.
+
+2. The biggest help was definately the comment where it
+showed what methods should remain public. Something else
+that guided me was basically seeing, which methods were
+not in the JDK documentation or did not resemble anything
+like it. Finding out if methods called other methods also
+helped. The public ones would usually call other methods
+that did not have to be seen by the client. I also
+pictured how the different methods could be used and if
+they were necessary for the client to see.
+
+3. 
+gcmarte@pe15:~/cs310/pa2/bin$ java cs310.client.TestMapPerf 1000000 words.txt
+Starting...
+reading words.txt
+Found 99171 lines
+Map type: java.util.HashMap
+      case         ms      #gets   time/get(us)
+         0         35    1000000          0.036
+         1         24    1000000          0.025
+         2         50    1000000          0.051
+
+reading words.txt
+Found 99171 lines
+Map type: java.util.TreeMap
+      case         ms      #gets   time/get(us)
+         0        231    1000000          0.231
+         1        271    1000000          0.271
+         2        324    1000000          0.324
+
+reading words.txt
+Found 99171 lines
+Exception in thread "main" java.lang.NullPointerException
+        at cs310.util.HashMap4.putVal(HashMap4.java:444)
+        at cs310.util.HashMap4.put(HashMap4.java:433)
+        at cs310.client.TestMapPerf.loadAndCompareMap(TestMapPerf.java:66)
+        at cs310.client.TestMapPerf.main(TestMapPerf.java:220)
+gcmarte@pe15:~/cs310/pa2/bin$
+
+Unfortunately for me I could not get the program to work
+with my HashMap4. I tried to redo the parts that were
+causing issues and tried smaller N values, but nothing
+worked. For the TreeMap and HashMap the O(1) claim was
+true. Using my knowledge I think that the arraylist
+implementation would be slower as you have to loop through
+the arraylists and nodes in some of the methods. The
+JDK HashMap looks to be faster than the treeMap for large
+input values based on the data.
+
+4. The meaning of the keySet being a view on the JDK HashMap
+is basically that it is a "live" set of keys. In other
+words manipulating the keySet object will affect the
+HashMap directly. It also means that if you manipulate 
+the HashMap, you will also change the keySet.

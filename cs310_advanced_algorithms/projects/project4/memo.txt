@@ -1,0 +1,64 @@
+1.
+These programs were overall okay. The most difficult
+part was definately part 2. This was probablily the most
+confusing becuase it was the start of the project and I
+had to spend a lot of time trying to figure out what code
+did what things. I had to go through a lot of trial and
+error. I also used a lot of printing statements to see how
+everything was working. Eventually I was able to to
+understand what the pieces of code were supposed to do and
+what the project was asking. After this part, everything
+went a lot smoother. I guess it was most likely the learning
+curve of understanding how the graph is represented and created
+using code. The next most difficult part would be part 3
+as I had to create a whole new class and figure things out
+myself a bit. However, with the help of the textbook and 
+project steps I was able to figure it out prety quickly.
+I definately think the book is useful when it comes to graphs.
+However, practicing the code was much more helpful than just
+reading it from the textbook. Using the graph code from the
+book also made things so much easier as I had already
+studied it before and everything was very clear.
+
+2.
+The issue with part 3 was that the program did not take
+into account other factors such as the silver line being slower
+and the transferring of platforms, which would then cause
+wait time. Due to this the program was not able to give the
+best/fastest route to go from JFK/UMass to Wonderland. A
+faster route would have been to take the blue line all the
+way instead of going through the silver line.
+
+3.
+It reads it the first time to get the size of the graph.
+The second time is to fill the graph. It has to do this
+in order to get the right size of the graph. You can
+rewrite it to read the file once, but you would have to
+make the graph more dynamic when it comes to size.
+Everytime the max is reached, you would have to resize
+the graph and increase it. However, this would most
+likely lead to left over vertices, which you would then
+have to get rid of. Overall it is just more conventient to
+read it twice if you don't have a lot of time to code the
+program.
+
+4.
+The are many more factors such as rush hour,
+detours/emergency and other things like that. Other things
+to take in mind would also be the speeds of the trains, the
+conditions of them and the tracks. Also since the trains
+are run by humans, they will never be perfectly on time.
+There will always be some type of delay or a train that
+comes too early. These factors are all usually very random
+and would be near impossible to keep track of constantly.
+
+5.
+It is done by just gettin the first three letters of
+the train line name. This is all the information needed
+to obtain the full color. If a new train line is added
+with the name "Y", it would end up causing some problems.
+Since the method is getting the first 3 characters, that
+means some of the station name might accidentally be
+included in the color. Overall, any new train line would
+have to at least have 3 characters for it's color in order
+for everything to work properly.
