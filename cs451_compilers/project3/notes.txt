@@ -1,0 +1,24 @@
+1. Provide a high-level description (ie, using minimal amount of technical
+   jargon) of the project in no more than 200 words.
+   The goal of this project was to learn more about the parser by adding support for extra features. In order
+   to implement the parsing of these new features, the java grammar had to be used as a guide. There were also times
+   in which helper methods were created to support further grammars that were not in j--. The first problem was about
+   parsing long and double basic types. The second part was adding support for the operators introduced in project 2.
+   The next things to parse in the same method were conditional expressions, do, for, break, continue, and switch
+   statements. Lastly, we also had to add support for exception handlers and interface type declaration, which needed
+   other methods in parser to be changed.
+
+
+2. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+  Swami Iyer         Professor      Helped with debugging and clarifications on Piazza for problems 1, 3 and 5.
+
+3. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   This project was a lot more challenging than I expected. I underestimated the time it would take and was
+   not able to finish it or get most of the code working. The experience could have went better.

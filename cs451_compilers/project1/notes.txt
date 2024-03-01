@@ -1,0 +1,24 @@
+1. Provide a high-level description (ie, using minimal amount of technical
+   jargon) of the project in no more than 200 words.
+   The goal of this project was to get an understanding of the j-- compiler and how it works.
+   The first part was learning to use CLEmitter to create a class file for the GenIsPrime java program.
+   The other part of the project was to implement unsupported operations in j-- and add new ones using
+   the correct precedence rules. In order to do this the major components of the j-- compiler had to be altered.
+   First, the token image and kind were placed in the TokenInfo java file. The Scanner was modified to
+   find and create the token. The Parser was altered to assign the correct operations and make the AST.
+   Lastly, the Expression files were changed to analyze and make the JVM bytecode.
+
+2. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+  Ramsey Harrison      TA          He clarified a Gradescope error I was getting in Piazza.
+
+
+3. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I learned a lot about the j-- compiler by doing this assignment. It was difficult to understand at the
+   beginning, but it became more enjoyable as I discovered new things.

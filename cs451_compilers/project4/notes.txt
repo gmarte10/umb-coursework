@@ -1,0 +1,26 @@
+1. Provide a high-level description (ie, using minimal amount of technical
+   jargon) of the project in no more than 200 words.
+   The goal of the project was to make a generated scanner and parser for j-- using JavaCC. The implementation was done
+   by using the Java grammar documentation as a guide and the base j--.jj code. The first part of the assignment was to
+   build the scanner by creating the operators and literals added in the previous projects. The next part was to work on
+   the parser to support these new features. Lastly, the implementation for things like for, do while, try, error
+   handlers and interfaces were added to the parser section. To add all of these parts, several methods based off the
+   Java grammar documentation were made as well. Overall, this project was a way to learn about an alternative and
+   simpler way to make a parser and scanner.
+
+
+2. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+   Swami Iyer         professor    Piazza help on problem 9
+   Ramsey Harrison    TA           Piazza help on problem 9 and office hours for the same problem
+
+3. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   It was interesting to combine the JavaCC code and java code. The project was a bit difficult at the beginning due
+   to having to learn how to use JavaCC and the lack of help that IntelliJ provided. However, after spending time
+   doing it, things became a lot easier and more enjoyable.
