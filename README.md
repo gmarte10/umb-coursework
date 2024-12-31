@@ -1,2 +1,2 @@
 # UMB Course Work
-Course work from University of Massachusetts Boston
+My saved course work from the University of Massachusetts Boston
