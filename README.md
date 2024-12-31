@@ -1,2 +1,2 @@
-# umb_classwork
-Classwork from University of Massachusetts Boston
+# UMB Course Work
+Course work from University of Massachusetts Boston
